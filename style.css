@@ -3,16 +3,19 @@ body {
 }
 
 #cookieConsent {
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
   width: 15%;
   background-color: lightgrey;
   border-radius: 20px;
-  padding: 10px;
+  padding: 10px 15px 15px 15px;
   font-family: sans-serif;
 }
 
 .cookieTitle {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .cookieText {
