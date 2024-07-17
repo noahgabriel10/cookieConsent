@@ -18,3 +18,26 @@ body {
 .cookieText {
   line-height: 1.75rem;
 }
+
+#cookieButtons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.primaryButton {
+    width: 48%;
+    background-color: #4672a7;
+    border: 3px solid #4672a7;
+    border-radius: 8px;
+    height: 40px;
+    color: white;
+}
+
+.secondaryButton {
+    width: 48%;
+    background-color: transparent;
+    border: 3px solid #4672a7;
+    border-radius: 8px;
+    height: 40px;
+    color: #4672a7;
+}
